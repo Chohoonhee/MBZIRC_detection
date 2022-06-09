@@ -5,6 +5,7 @@ This repository contains ROS2 packages for MBZIRC detection algorithms.
 **Package Dependencies:**
 
 vision_msgs: https://github.com/Kukanani/vision_msgs/tree/ros2
+
 cv_bridge: https://github.com/ros-perception/vision_opencv/tree/ros2/cv_bridge (May already be present, check by running ros2 pkg list)
 
 Build these packages into your workspace. Make sure ROS2 versions are present.
