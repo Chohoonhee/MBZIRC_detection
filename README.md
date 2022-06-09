@@ -11,6 +11,7 @@ cv_bridge: https://github.com/ros-perception/vision_opencv/tree/ros2/cv_bridge (
 Build these packages into your workspace. Make sure ROS2 versions are present.
 
 **Other Dependencies:**
+
 Pytorch and torchvision (if using Jetson, refer: https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-6-0-now-available/72048)
 
 
@@ -18,7 +19,6 @@ Pytorch and torchvision (if using Jetson, refer: https://forums.developer.nvidia
 Make sure the weights of detection are placed in the ros2_ws/src. T
 Then, change the following line (84 line in live_detection/live_detection/live_detection_helper.py) to match the your path.
 
-## efficientdet
 self.model_path = '/home/vilab/torch_example/src/efficientdet-d0_0_10.pth'
 
 The package can now be built and run. Navigate into your workspace run colcon build --packages-select trt_live_detector
