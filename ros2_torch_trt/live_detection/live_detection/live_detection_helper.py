@@ -81,7 +81,7 @@ class DetectionNode(Node):
         # self.label_path = os.getenv("HOME") + '/ros2_models/voc-model-labels.txt'
         
         ## efficientdet
-        self.model_path = '/home/vilab/Yet-Another-EfficientDet-Pytorch2/logs/SMD_nohaze/efficientdet-d0_0_10.pth'
+        self.model_path = '/home/vilab/torch_example/src/efficientdet-d0_0_10.pth'
         self.obj_list = obj_list
 
 
